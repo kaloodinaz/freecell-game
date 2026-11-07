@@ -1,0 +1,78 @@
+{
+  "id": "/freecell-game/",
+  "name": "フリーセル無料ゲーム",
+  "short_name": "フリーセル",
+  "lang": "ja",
+  "dir": "ltr",
+  "description": "フリーセルを無料でオンラインプレイ。登録・ダウンロード不要で、スマホ・PC・タブレットに対応。元に戻す機能、全画面表示、サウンド設定つき。初心者向けの遊び方も解説します。",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0f2d17",
+  "theme_color": "#1b3a12",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/shots/ja-wide.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "フリーセル無料ゲーム"
+    },
+    {
+      "src": "img/shots/ja-narrow.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "フリーセル無料ゲーム"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "新規ゲーム",
+      "short_name": "新規ゲーム",
+      "url": "./?new=1&source=shortcut",
+      "icons": [
+        {
+          "src": "img/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
